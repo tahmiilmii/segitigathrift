@@ -79,7 +79,7 @@ p + p {
 /* Buttons */
 .btn {
     line-height: 50px;
-    min-width: 600px;
+    min-width: 120px;
     font-size: 16px;
     font-weight: 300;
     border: 0;
@@ -95,7 +95,7 @@ p + p {
 }
 
 .btn-border {
-    border: 1px solid white;
+    
 }
 
 .btn-fill {
@@ -825,7 +825,6 @@ html, body {
 
 .hero-text .btn {
     position: relative;
-    background-color: transparent;
 }
 
 .hero-text .btn:hover {
@@ -1143,7 +1142,7 @@ html, body {
 /* Copyright */
 .copyright {
     padding: 30px 0;
-    border-top: 1px solid rgba(38, 41, 44, 0.05);
+    border-top: 2px solid rgba(38, 41, 44, 0.05);
 }
 
 .social-links a {
@@ -1203,15 +1202,9 @@ a.linkedin-bg:hover {
     padding: 4px 0;
 }
 
-.copyright p {
-    font-size: 9px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #26272d;
-}
 
 .copyright p + p {
-    margin-top: 2px;
+    margin-top: 10px;
 }
 
 /* PAGES
